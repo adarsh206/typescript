@@ -5,6 +5,7 @@ import { GreetA, GreetB } from './components/02_defaultProps'
 import { Panel, RequiredChildrenPanel } from './components/03_ChildrenReactNode'
 import { Button } from './components/05_ComponentProps'
 import { Counter } from './components/06_state'
+import { FormExample } from './components/07_Events'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       Text
     </Button>
     <Counter />
+    <FormExample />
     
    </div>
   )
