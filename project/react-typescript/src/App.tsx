@@ -3,6 +3,7 @@ import './App.css'
 import { UserCard } from './components/01_RequiredOptionalProps'
 import { GreetA, GreetB } from './components/02_defaultProps'
 import { Panel, RequiredChildrenPanel } from './components/03_ChildrenReactNode'
+import { Button } from './components/05_ComponentProps'
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
     <RequiredChildrenPanel title='Hello Again'>
       Some Children Content
     </RequiredChildrenPanel>
+    <Button onClick={() => alert('Button Clicked')} variant='primary'>
+      Text
+    </Button>
     
    </div>
   )
