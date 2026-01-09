@@ -6,6 +6,7 @@ import { Panel, RequiredChildrenPanel } from './components/03_ChildrenReactNode'
 import { Button } from './components/05_ComponentProps'
 import { Counter } from './components/06_state'
 import { FormExample } from './components/07_Events'
+import { TypedReducer } from './components/07_TypedUseReducer'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
     </Button>
     <Counter />
     <FormExample />
+    <TypedReducer />
     
    </div>
   )
