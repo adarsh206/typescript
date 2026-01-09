@@ -7,6 +7,7 @@ import { Button } from './components/05_ComponentProps'
 import { Counter } from './components/06_state'
 import { FormExample } from './components/07_Events'
 import { TypedReducer } from './components/07_TypedUseReducer'
+import { UncontrolledForm } from './components/09_Uncontrolled'
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
     <Counter />
     <FormExample />
     <TypedReducer />
+    <UncontrolledForm />
     
    </div>
   )
